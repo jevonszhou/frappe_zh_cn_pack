@@ -1,0 +1,192 @@
+﻿Education,教育培训
+Public,公用
+LMS,学习管理系统
+Home,主页
+Accounting,财务
+Buying,采购
+Selling,销售
+Stock,库存
+Projects,项目
+Users,用户
+Tools,工具
+Your Shortcuts,快捷方式
+Student,学生
+Instructor,讲师
+Active,活跃的
+{0}Active,{0}活跃
+Program,计划
+Course,课程
+Fees,费用
+Unpaid,未付款的
+{0}Unpaid,{0}未付款
+Paid,已付款的
+Student Monthly Attendance Sheet,学生每月考勤表
+Course Scheduling Tool,课程安排工具
+Student Attendance Tool,学生考勤工具
+Dashboard,仪表盘
+Reports & Masters,报告和主数据
+Student and Instructor,学生和讲师
+Instructor,讲师
+Guardian,监护人
+Student Group,学生小组
+Student Log,学生日志
+Masters,主数据
+Topic,主题
+Room,课室
+Content Masters,内容主数据
+Article,文章
+Video,视频
+Quiz,课堂测验
+Settings,设置
+Education Settings,教育设置
+Student Category,学生类别
+Student Batch Name,学生批次名
+Grading Scale,评分标准
+Academic Term,学期
+Academic Year,学年
+Student Applicant,学生申请
+Student Admission,学生入学
+Program Enrollment,项目登记
+Course Enrollment,课程注册
+Fee Structure,费用结构
+Fee Category,费用类别
+Fee Schedule,收费标准
+Student Fee Collection Report,学生费用收取报告
+Program wise Fee Collection Report,按项目收费汇总报告
+Schedule,计划
+Course Schedule,课程表
+Course Scheduling Tool,课程排程工具
+Attendance,考勤
+Student Attendance,学生出勤
+Student Leave Application,学生请假申请
+Absent Student Report,学生缺席情况报表
+Student Batch-Wise Attendance,学生分批次考勤
+Course Enrollment,课程注册
+Course Activity,课程活动
+Quiz Activity,测验活动
+Assessment,评估
+Assessment Plan,评估计划
+Assessment Group,评估组
+Assessment Result,评估结果
+Assessment Criteria,评估标准
+Assessment Reports,评估报告
+Course wise Assessment Report,分课程评估报告
+Final Assessment Grades,最终考核成绩
+Assessment Plan Status,评估计划状态
+Student Report Generation Tool,学生报告生成工具
+Student Attendance Tool,学生考勤工具
+Assessment Result Tool,评估结果工具
+Student Group Creation Tool,学生分组创建工具
+Program Enrollment Tool,项目报名工具
+Course Scheduling Tool,课程排程工具
+Other Reports,其他报告
+Student and Guardian Contact Details,学生及监护人联系方式
+Admissions,招生
+Student Management,学生管理
+Academics,教育教学
+Fee Management,费用管理
+Fee Reports,费用报告
+Student Fee Collection,学生费用收取
+Program wise Fee Collection,按项目收费
+Attendance Reports,出勤报告
+Application Date,申请日期
+Applied,已申请
+Student Email Address,学生电子邮箱地址
+Student Mobile Number,学生手机号码
+Nationality,国籍
+Relations,关系
+Date of Leaving,退课日期
+Reason For Leaving,退课原因
+Leaving Certificate Number,退课证明号码
+Guardian Details,监护人详情
+Guardians,监护人
+Guardian Name,监护人姓名
+Sibling Details,亲属详情
+Siblings,亲属
+Admission Start Date,招生开始日期
+Admission End Date,招生截至日期
+Eligibility and Details,资格与详情
+Minimum Age,最低年龄
+Maximum Age,最高年龄
+Application Fee,申请费
+Group Based on,分组依据
+Student Group Name,学生组名称
+Max Strength,人数上限
+Instructors,讲师
+Instructor Name,讲师姓名
+Batch Name,批次名
+School House,校区
+Boarding Student,寄宿生
+Enrollment Date,入学日期
+Student Batch,学生批次
+Enrolled courses,已选课程
+Courses,课程
+Course Name,课程名称
+Academic Year Name,学年名称
+Term Name,学期名称
+Term Start Date,学期开始日期
+Term End Date,学期结束日期
+Program Name,项目名称
+Program Abbreviation,项目简称
+Topics,主题
+Topic Name,主题名称
+Default Grading Scale,默认评分标准
+Weightage,权重
+Class Schedule Color,课程表颜色
+Activity Date,活动日期
+Assessment Name,评估名称
+Examiner,考官
+Supervisor,监督者
+Evaluate,评价
+Maximum Assessment Score,最高评估得分
+Maximum Score,最高分
+All Assessment Groups,所有评估组
+Assessment Group Name,评估组名称
+Parent Assessment Group,主评估组
+Grading Scale Name,评分等级名称
+Grading Scale Intervals,评分等级区间
+Intervals,区间
+Grade Code,等级到吗
+Threshold,阈值
+Grade Description,等级说明
+Components,成分
+Fees Category,费用类别
+Discount(%),折扣（%）
+Send Payment Request Email,发送付款请求邮件
+Total Students,学生总数
+Fee Breakup (each student),费用明细（按学生）
+Total Amount per Student,每位学生总金额
+Institution,机构
+Attendance Based On,基于出勤
+Get Students From,获取学生来源
+Get Students,获取学生
+Students,学生
+Student Name,学生姓名
+Enrollment Details,报名详情
+New Student Batch,新生批次
+Enroll Students,招收学生
+Get Courses,获取课程
+Group Baed On,分组依据
+Separate course based Group for every Batch,为每个批次设立单独的课程专属小组
+Report Settings,报告设置
+Add letterhead,添加信头
+Total Parents Teacher Meeting,全校家长教师会议
+No. of Meetings Attended by Parents,家长出席会议次数
+Show Marks,显示标记
+Course Start Date,课程开始日期
+Course End Date,课程结束日期
+Reschedule,重新安排
+Instructor Log,讲师日志
+Room Name,课室名称
+Current Academic Year,本学年
+Current Academic Term,本学期
+Attendance Freeze Date,考勤冻结日期
+Create Sales Order instead of Sales Invoice,创建销售订单而非销售发票
+Instructor Records to be created by,讲师记录将由……创建
+Validate Batch for Students in Student Group,验证学生组内学生的批次
+Validate Enrolled Course for Students in Student Group,验证学生组内学生的已选课程
+Make Academic Term Mandatory,将学期设为必填项
+Skip User creation for new Student,跳过新学生的账户创建
+Submit Sales Invoice from Program Enrollment / Fee Schedule,从课程报名/费用表中提交销售发票
+Sales Invoice Posting Date should be same as Fee Schedule Posting Date,从课程报名/费用表中提交销售发票
+Scheduled Upto,计划截至
