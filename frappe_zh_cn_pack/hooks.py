@@ -5,6 +5,9 @@ app_description = "A custom app to integate the optimized Chinease language tran
 app_email = "jevons.zh@gmail.com"
 app_license = "gpl-3.0"
 
+after_install = "frappe_zh_cn_pack.install.after_install"
+after_migrate = "frappe_zh_cn_pack.install.after_migrate"
+
 # Apps
 # ------------------
 
