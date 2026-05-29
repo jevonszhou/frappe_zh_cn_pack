@@ -3,8 +3,8 @@ name = "frappe_zh_cn_pack"
 authors = [
     { name = "Jevons Zhou", email = "jevons.zh@gmail.com"}
 ]
-description = "A custom app to integate the optimized Chinease language translation for Frappe apps."
-requires-python = ">=3.14"
+description = "A custom app to integrate optimized Chinese language translations for Frappe apps."
+requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]
 dependencies = [
@@ -25,7 +25,7 @@ packages = []
 
 [tool.ruff]
 line-length = 110
-target-version = "py314"
+target-version = "py310"
 
 [tool.ruff.lint]
 select = [

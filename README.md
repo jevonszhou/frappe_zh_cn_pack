@@ -1,6 +1,47 @@
 ### Frappe Chinese Language Pack
 
-A custom app to integate the optimized Chinease language translation for Frappe apps.
+A custom app to integrate optimized Chinese language translations for Frappe apps.
+
+### How it works
+
+This app keeps translations separated by upstream Frappe app instead of merging all
+messages into one global `zh.po`.
+
+Translation sources live under app-specific folders:
+
+```text
+frappe_zh_cn_pack/locale/frappe/zh.po
+frappe_zh_cn_pack/locale/erpnext/zh.po
+frappe_zh_cn_pack/locale/hrms/zh.po
+frappe_zh_cn_pack/locale/crm/zh.po
+frappe_zh_cn_pack/locale/insights/zh.po
+frappe_zh_cn_pack/locale/education/zh.csv
+```
+
+On install and migrate, the pack compiles those bundled sources into Frappe's runtime
+catalogs using the target app name as the gettext domain:
+
+```text
+sites/assets/locale/zh/LC_MESSAGES/frappe.mo
+sites/assets/locale/zh/LC_MESSAGES/erpnext.mo
+sites/assets/locale/zh/LC_MESSAGES/hrms.mo
+```
+
+That means the same `msgid` can have a different translation in each app source file.
+The old generated `frappe_zh_cn_pack/locale/zh.po` file is intentionally not used,
+because it collapses app-specific meaning into one global dictionary.
+
+If the original app code uses the same text without a translation context, Frappe still
+looks up the plain `msgid`. For truly different meanings in the same runtime page,
+prefer upstream strings with context, for example:
+
+```python
+_("Open", context="Sales Invoice status")
+```
+
+```javascript
+__("Open", null, "Job Opening status")
+```
 
 ### Installation
 
@@ -10,6 +51,19 @@ You can install this app using the [bench](https://github.com/frappe/bench) CLI:
 cd $PATH_TO_YOUR_BENCH
 bench get-app $URL_OF_THIS_REPO --branch main
 bench install-app frappe_zh_cn_pack
+```
+
+To recompile the bundled translations after editing the source files:
+
+```bash
+bench --site $SITE_NAME execute frappe_zh_cn_pack.translation_pack.install_translation_pack
+bench --site $SITE_NAME clear-cache
+```
+
+To audit app-specific conflicts without merging them:
+
+```bash
+python frappe_zh_cn_pack/scripts/audit_zh_sources.py
 ```
 
 ### Contributing

@@ -1,12 +1,13 @@
 app_name = "frappe_zh_cn_pack"
 app_title = "Frappe Chinese Language Pack"
 app_publisher = "Jevons Zhou"
-app_description = "A custom app to integate the optimized Chinease language translation for Frappe apps."
+app_description = "A custom app to integrate optimized Chinese language translations for Frappe apps."
 app_email = "jevons.zh@gmail.com"
 app_license = "gpl-3.0"
 
 after_install = "frappe_zh_cn_pack.install.after_install"
 after_migrate = "frappe_zh_cn_pack.install.after_migrate"
+after_build = "frappe_zh_cn_pack.install.after_build"
 
 # Apps
 # ------------------
@@ -258,4 +259,3 @@ after_migrate = "frappe_zh_cn_pack.install.after_migrate"
 # ------------
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
-
