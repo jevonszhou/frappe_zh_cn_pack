@@ -4739,7 +4739,7 @@ msgstr "HR设置"
 #: hrms/desktop_icon/hr_setup.json hrms/hr/workspace/hr_setup/hr_setup.json
 #: hrms/workspace_sidebar/hr_setup.json
 msgid "HR Setup"
-msgstr "HR设置"
+msgstr "人事设置"
 
 #: hrms/config/desktop.py:5
 msgid "HRMS"

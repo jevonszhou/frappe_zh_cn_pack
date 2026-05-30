@@ -1342,7 +1342,7 @@ msgstr "印度"
 #: insights/insights/doctype/insights_user_invitation/insights_user_invitation.json
 #: insights/insights/doctype/insights_workbook/insights_workbook.json
 msgid "Insights Admin"
-msgstr "Insights 管理"
+msgstr "数据分析管理员"
 
 #. Name of a DocType
 #: insights/insights/doctype/insights_alert/insights_alert.json
@@ -1544,7 +1544,7 @@ msgstr "Insights 团队成员"
 #: insights/insights/doctype/insights_user_invitation/insights_user_invitation.json
 #: insights/insights/doctype/insights_workbook/insights_workbook.json
 msgid "Insights User"
-msgstr "Insights 用户"
+msgstr "数据分析用户"
 
 #. Name of a DocType
 #: insights/insights/doctype/insights_user_invitation/insights_user_invitation.json

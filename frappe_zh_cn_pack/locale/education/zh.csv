@@ -12,14 +12,14 @@ Tools,工具
 Your Shortcuts,快捷方式
 Student,学生
 Instructor,讲师
-Active,活跃的
-{0}Active,{0}活跃
+"{0} Active","{0} 活跃"
 Program,计划
 Course,课程
 Fees,费用
-Unpaid,未付款的
-{0}Unpaid,{0}未付款
-Paid,已付款的
+"{0} Unpaid","{0} 未付款"
+Paid,已付款
+Education Manager,教育经理
+Employee Self Service,员工自助服务
 Student Monthly Attendance Sheet,学生每月考勤表
 Course Scheduling Tool,课程安排工具
 Student Attendance Tool,学生考勤工具
