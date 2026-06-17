@@ -22017,7 +22017,7 @@ msgstr "未设置打印机映射"
 #. Title of a Workspace Sidebar
 #: frappe/desktop_icon/printing.json frappe/workspace_sidebar/printing.json
 msgid "Printing"
-msgstr "正在打印"
+msgstr "打印"
 
 #: frappe/utils/print_format.py:364
 msgid "Printing failed"

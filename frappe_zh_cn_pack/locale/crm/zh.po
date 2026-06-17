@@ -3523,7 +3523,7 @@ msgstr "表单脚本更新成功"
 #. Name of a Workspace
 #: crm/fcrm/workspace/frappe_crm/frappe_crm.json
 msgid "Frappe CRM"
-msgstr "Frappe CRM"
+msgstr "客户关系"
 
 #: frontend/src/components/Layouts/AppSidebar.vue:638
 msgid "Frappe CRM mobile"
