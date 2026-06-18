@@ -16,15 +16,15 @@ after_build = "frappe_translation.install.after_build"
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "frappe_translation",
-# 		"logo": "/assets/frappe_translation/images/logo.png",
-# 		"title": "Frappe Translation",
-# 		"route": "/frappe_translation",
-# 		"has_permission": "frappe_translation.api.permission.has_app_permission"
-# 	}
-# ]
+add_to_apps_screen = [
+	{
+ 		"name": "frappe_translation",
+ 		"logo": "/assets/frappe_translation/images/logo.png",
+ 		"title": "Frappe Translation",
+ 		"route": "/frappe_translation",
+ 		"has_permission": "frappe_translation.api.permission.has_app_permission"
+ 	}
+]
 
 # Includes in <head>
 # ------------------
