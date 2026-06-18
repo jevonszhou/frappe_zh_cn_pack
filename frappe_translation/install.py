@@ -1,4 +1,4 @@
-from frappe_zh_cn_pack.translation_pack import install_translation_pack
+from frappe_translation.translation_pack import install_translation_pack
 
 
 def after_install():

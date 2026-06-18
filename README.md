@@ -10,12 +10,12 @@ messages into one global `zh.po`.
 Translation sources live under app-specific folders:
 
 ```text
-frappe_zh_cn_pack/locale/frappe/zh.po
-frappe_zh_cn_pack/locale/erpnext/zh.po
-frappe_zh_cn_pack/locale/hrms/zh.po
-frappe_zh_cn_pack/locale/crm/zh.po
-frappe_zh_cn_pack/locale/insights/zh.po
-frappe_zh_cn_pack/locale/education/zh.csv
+frappe_translation/locale/frappe/zh.po
+frappe_translation/locale/erpnext/zh.po
+frappe_translation/locale/hrms/zh.po
+frappe_translation/locale/crm/zh.po
+frappe_translation/locale/insights/zh.po
+frappe_translation/locale/education/zh.csv
 ```
 
 On install and migrate, the pack compiles those bundled sources into Frappe's runtime
@@ -28,7 +28,7 @@ sites/assets/locale/zh/LC_MESSAGES/hrms.mo
 ```
 
 That means the same `msgid` can have a different translation in each app source file.
-The old generated `frappe_zh_cn_pack/locale/zh.po` file is intentionally not used,
+The old generated `frappe_translation/locale/zh.po` file is intentionally not used,
 because it collapses app-specific meaning into one global dictionary.
 
 If the original app code uses the same text without a translation context, Frappe still
@@ -50,20 +50,20 @@ You can install this app using the [bench](https://github.com/frappe/bench) CLI:
 ```bash
 cd $PATH_TO_YOUR_BENCH
 bench get-app $URL_OF_THIS_REPO --branch main
-bench install-app frappe_zh_cn_pack
+bench install-app frappe_translation
 ```
 
 To recompile the bundled translations after editing the source files:
 
 ```bash
-bench --site $SITE_NAME execute frappe_zh_cn_pack.translation_pack.install_translation_pack
+bench --site $SITE_NAME execute frappe_translation.translation_pack.install_translation_pack
 bench --site $SITE_NAME clear-cache
 ```
 
 To audit app-specific conflicts without merging them:
 
 ```bash
-python frappe_zh_cn_pack/scripts/audit_zh_sources.py
+python frappe_translation/scripts/audit_zh_sources.py
 ```
 
 ### Contributing
@@ -71,7 +71,7 @@ python frappe_zh_cn_pack/scripts/audit_zh_sources.py
 This app uses `pre-commit` for code formatting and linting. Please [install pre-commit](https://pre-commit.com/#installation) and enable it for this repository:
 
 ```bash
-cd apps/frappe_zh_cn_pack
+cd apps/frappe_translation
 pre-commit install
 ```
 

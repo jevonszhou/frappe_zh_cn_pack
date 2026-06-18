@@ -4,7 +4,7 @@ import csv
 from dataclasses import dataclass
 from pathlib import Path
 
-APP_NAME = "frappe_zh_cn_pack"
+APP_NAME = "frappe_translation"
 DEFAULT_LOCALE = "zh"
 LOCALE_DIR = "locale"
 

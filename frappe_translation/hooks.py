@@ -1,13 +1,13 @@
-app_name = "frappe_zh_cn_pack"
-app_title = "Frappe Chinese Language Pack"
+app_name = "frappe_translation"
+app_title = "Frappe Translation"
 app_publisher = "Jevons Zhou"
-app_description = "A custom app to integrate optimized Chinese language translations for Frappe apps."
+app_description = "A custom app to integrate optimized language translations for Frappe apps."
 app_email = "jevons.zh@gmail.com"
 app_license = "gpl-3.0"
 
-after_install = "frappe_zh_cn_pack.install.after_install"
-after_migrate = "frappe_zh_cn_pack.install.after_migrate"
-after_build = "frappe_zh_cn_pack.install.after_build"
+after_install = "frappe_translation.install.after_install"
+after_migrate = "frappe_translation.install.after_migrate"
+after_build = "frappe_translation.install.after_build"
 
 # Apps
 # ------------------
@@ -17,11 +17,11 @@ after_build = "frappe_zh_cn_pack.install.after_build"
 # Each item in the list will be shown as an app in the apps page
 # add_to_apps_screen = [
 # 	{
-# 		"name": "frappe_zh_cn_pack",
-# 		"logo": "/assets/frappe_zh_cn_pack/logo.png",
-# 		"title": "Frappe Chinese Language Pack",
-# 		"route": "/frappe_zh_cn_pack",
-# 		"has_permission": "frappe_zh_cn_pack.api.permission.has_app_permission"
+# 		"name": "frappe_translation",
+# 		"logo": "/assets/frappe_translation/images/logo.png",
+# 		"title": "Frappe Translation",
+# 		"route": "/frappe_translation",
+# 		"has_permission": "frappe_translation.api.permission.has_app_permission"
 # 	}
 # ]
 
@@ -29,15 +29,15 @@ after_build = "frappe_zh_cn_pack.install.after_build"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/frappe_zh_cn_pack/css/frappe_zh_cn_pack.css"
-# app_include_js = "/assets/frappe_zh_cn_pack/js/frappe_zh_cn_pack.js"
+# app_include_css = "/assets/frappe_translation/css/frappe_translation.css"
+# app_include_js = "/assets/frappe_translation/js/frappe_translation.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/frappe_zh_cn_pack/css/frappe_zh_cn_pack.css"
-# web_include_js = "/assets/frappe_zh_cn_pack/js/frappe_zh_cn_pack.js"
+# web_include_css = "/assets/frappe_translation/css/frappe_translation.css"
+# web_include_js = "/assets/frappe_translation/js/frappe_translation.js"
 
 # include custom scss in every website theme (without file extension ".scss")
-# website_theme_scss = "frappe_zh_cn_pack/public/scss/website"
+# website_theme_scss = "frappe_translation/public/scss/website"
 
 # include js, css files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}
@@ -55,7 +55,7 @@ after_build = "frappe_zh_cn_pack.install.after_build"
 # Svg Icons
 # ------------------
 # include app icons in desk
-# app_include_icons = "frappe_zh_cn_pack/public/icons.svg"
+# app_include_icons = "frappe_translation/public/icons.svg"
 
 # Home Pages
 # ----------
@@ -82,49 +82,49 @@ after_build = "frappe_zh_cn_pack.install.after_build"
 
 # add methods and filters to jinja environment
 # jinja = {
-# 	"methods": "frappe_zh_cn_pack.utils.jinja_methods",
-# 	"filters": "frappe_zh_cn_pack.utils.jinja_filters"
+# 	"methods": "frappe_translation.utils.jinja_methods",
+# 	"filters": "frappe_translation.utils.jinja_filters"
 # }
 
 # Installation
 # ------------
 
-# before_install = "frappe_zh_cn_pack.install.before_install"
-# after_install = "frappe_zh_cn_pack.install.after_install"
+# before_install = "frappe_translation.install.before_install"
+# after_install = "frappe_translation.install.after_install"
 
 # Uninstallation
 # ------------
 
-# before_uninstall = "frappe_zh_cn_pack.uninstall.before_uninstall"
-# after_uninstall = "frappe_zh_cn_pack.uninstall.after_uninstall"
+# before_uninstall = "frappe_translation.uninstall.before_uninstall"
+# after_uninstall = "frappe_translation.uninstall.after_uninstall"
 
 # Integration Setup
 # ------------------
 # To set up dependencies/integrations with other apps
 # Name of the app being installed is passed as an argument
 
-# before_app_install = "frappe_zh_cn_pack.utils.before_app_install"
-# after_app_install = "frappe_zh_cn_pack.utils.after_app_install"
+# before_app_install = "frappe_translation.utils.before_app_install"
+# after_app_install = "frappe_translation.utils.after_app_install"
 
 # Integration Cleanup
 # -------------------
 # To clean up dependencies/integrations with other apps
 # Name of the app being uninstalled is passed as an argument
 
-# before_app_uninstall = "frappe_zh_cn_pack.utils.before_app_uninstall"
-# after_app_uninstall = "frappe_zh_cn_pack.utils.after_app_uninstall"
+# before_app_uninstall = "frappe_translation.utils.before_app_uninstall"
+# after_app_uninstall = "frappe_translation.utils.after_app_uninstall"
 
 # Build
 # ------------------
 # To hook into the build process
 
-# after_build = "frappe_zh_cn_pack.build.after_build"
+# after_build = "frappe_translation.build.after_build"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "frappe_zh_cn_pack.notifications.get_notification_config"
+# notification_config = "frappe_translation.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -155,47 +155,47 @@ after_build = "frappe_zh_cn_pack.install.after_build"
 
 # scheduler_events = {
 # 	"all": [
-# 		"frappe_zh_cn_pack.tasks.all"
+# 		"frappe_translation.tasks.all"
 # 	],
 # 	"daily": [
-# 		"frappe_zh_cn_pack.tasks.daily"
+# 		"frappe_translation.tasks.daily"
 # 	],
 # 	"hourly": [
-# 		"frappe_zh_cn_pack.tasks.hourly"
+# 		"frappe_translation.tasks.hourly"
 # 	],
 # 	"weekly": [
-# 		"frappe_zh_cn_pack.tasks.weekly"
+# 		"frappe_translation.tasks.weekly"
 # 	],
 # 	"monthly": [
-# 		"frappe_zh_cn_pack.tasks.monthly"
+# 		"frappe_translation.tasks.monthly"
 # 	],
 # }
 
 # Testing
 # -------
 
-# before_tests = "frappe_zh_cn_pack.install.before_tests"
+# before_tests = "frappe_translation.install.before_tests"
 
 # Extend DocType Class
 # ------------------------------
 #
 # Specify custom mixins to extend the standard doctype controller.
 # extend_doctype_class = {
-# 	"Task": "frappe_zh_cn_pack.custom.task.CustomTaskMixin"
+# 	"Task": "frappe_translation.custom.task.CustomTaskMixin"
 # }
 
 # Overriding Methods
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "frappe_zh_cn_pack.event.get_events"
+# 	"frappe.desk.doctype.event.event.get_events": "frappe_translation.event.get_events"
 # }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
 # override_doctype_dashboards = {
-# 	"Task": "frappe_zh_cn_pack.task.get_dashboard_data"
+# 	"Task": "frappe_translation.task.get_dashboard_data"
 # }
 
 # exempt linked doctypes from being automatically cancelled
@@ -209,13 +209,13 @@ after_build = "frappe_zh_cn_pack.install.after_build"
 
 # Request Events
 # ----------------
-# before_request = ["frappe_zh_cn_pack.utils.before_request"]
-# after_request = ["frappe_zh_cn_pack.utils.after_request"]
+# before_request = ["frappe_translation.utils.before_request"]
+# after_request = ["frappe_translation.utils.after_request"]
 
 # Job Events
 # ----------
-# before_job = ["frappe_zh_cn_pack.utils.before_job"]
-# after_job = ["frappe_zh_cn_pack.utils.after_job"]
+# before_job = ["frappe_translation.utils.before_job"]
+# after_job = ["frappe_translation.utils.after_job"]
 
 # User Data Protection
 # --------------------
@@ -245,7 +245,7 @@ after_build = "frappe_zh_cn_pack.install.after_build"
 # --------------------------------
 
 # auth_hooks = [
-# 	"frappe_zh_cn_pack.auth.validate"
+# 	"frappe_translation.auth.validate"
 # ]
 
 # Automatically update python controller files with type annotations for this app.

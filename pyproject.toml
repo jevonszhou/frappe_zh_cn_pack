@@ -1,5 +1,5 @@
 [project]
-name = "frappe_zh_cn_pack"
+name = "frappe_translation"
 authors = [
     { name = "Jevons Zhou", email = "jevons.zh@gmail.com"}
 ]

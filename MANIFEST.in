@@ -1,2 +1,2 @@
-recursive-include frappe_zh_cn_pack/locale *.po *.pot *.csv
-recursive-include frappe_zh_cn_pack/scripts *.py
+recursive-include frappe_translation/locale *.po *.pot *.csv
+recursive-include frappe_translation/scripts *.py
