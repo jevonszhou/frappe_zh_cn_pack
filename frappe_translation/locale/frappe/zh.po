@@ -12018,7 +12018,7 @@ msgstr "Frappe 框架版本"
 
 #: frappe/public/js/frappe/ui/theme_switcher.js:59
 msgid "Frappe Light"
-msgstr "Frappe Light主题"
+msgstr "浅色模式"
 
 #. Option for the 'Service' (Select) field in DocType 'Email Account'
 #: frappe/email/doctype/email_account/email_account.json
@@ -29510,7 +29510,7 @@ msgstr "超时"
 
 #: frappe/public/js/frappe/ui/theme_switcher.js:64
 msgid "Timeless Night"
-msgstr "永恒之夜主题"
+msgstr "深色模式"
 
 #. Label of the timeline_doctype (Link) field in DocType 'Activity Log'
 #: frappe/core/doctype/activity_log/activity_log.json
