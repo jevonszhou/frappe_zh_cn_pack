@@ -29,8 +29,8 @@ after_build = "frappe_translation.install.after_build"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/frappe_translation/css/frappe_translation.css"
-# app_include_js = "/assets/frappe_translation/js/frappe_translation.js"
+app_include_css = "/assets/frappe_translation/css/frappe_translation.css"
+app_include_js = "/assets/frappe_translation/js/frappe_translation.bundle.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/frappe_translation/css/frappe_translation.css"

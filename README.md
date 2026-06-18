@@ -27,6 +27,21 @@ sites/assets/locale/zh/LC_MESSAGES/erpnext.mo
 sites/assets/locale/zh/LC_MESSAGES/hrms.mo
 ```
 
+The app also exposes static files through Frappe's assets path:
+
+```text
+sites/assets/frappe_translation
+```
+
+This directory is linked to, or copied from, the app's `public` folder during install,
+migrate, and build hooks. Static files can be referenced from Frappe as:
+
+```text
+/assets/frappe_translation/images/logo.png
+/assets/frappe_translation/css/frappe_translation.css
+/assets/frappe_translation/js/frappe_translation.bundle.js
+```
+
 That means the same `msgid` can have a different translation in each app source file.
 The old generated `frappe_translation/locale/zh.po` file is intentionally not used,
 because it collapses app-specific meaning into one global dictionary.
@@ -92,4 +107,3 @@ This app can use GitHub Actions for CI. The following workflows are configured:
 ### License
 
 gpl-3.0
-"# frappe_translation" 
