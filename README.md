@@ -1,6 +1,6 @@
-### Frappe Chinese Language Pack
+### Frappe Translation
 
-A custom app to integrate optimized Chinese language translations for Frappe apps.
+A custom app to integrate optimized language translations for Frappe apps.
 
 ### How it works
 
