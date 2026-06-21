@@ -1,0 +1,102 @@
+/* Frappe Translation website and desk bundle styles */
+
+.frappe-translation-page {
+	max-width: 960px;
+	margin: 40px auto;
+	padding: 24px;
+	font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #1a1a1a;
+}
+
+.frappe-translation-page .app-header {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	margin-bottom: 32px;
+	padding-bottom: 16px;
+	border-bottom: 1px solid #e5e7eb;
+}
+
+.frappe-translation-page .app-header img {
+	width: 56px;
+	height: 56px;
+	border-radius: 12px;
+}
+
+.frappe-translation-page .app-header h1 {
+	font-size: 24px;
+	font-weight: 600;
+	margin: 0;
+}
+
+.frappe-translation-page .app-header p {
+	font-size: 14px;
+	color: #6b7280;
+	margin: 4px 0 0 0;
+}
+
+.frappe-translation-page .assets-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+	gap: 16px;
+	margin-top: 24px;
+}
+
+.frappe-translation-page .asset-card {
+	padding: 16px;
+	border: 1px solid #e5e7eb;
+	border-radius: 8px;
+	background: #ffffff;
+	transition: box-shadow 0.2s ease;
+}
+
+.frappe-translation-page .asset-card:hover {
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.frappe-translation-page .asset-card h3 {
+	font-size: 14px;
+	font-weight: 600;
+	margin: 0 0 8px 0;
+	color: #111827;
+}
+
+.frappe-translation-page .asset-card code {
+	display: block;
+	font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+	font-size: 12px;
+	color: #4b5563;
+	background: #f9fafb;
+	padding: 8px;
+	border-radius: 4px;
+	word-break: break-all;
+}
+
+.frappe-translation-page .asset-preview {
+	margin-top: 12px;
+	padding: 12px;
+	background: #f9fafb;
+	border-radius: 4px;
+	text-align: center;
+}
+
+.frappe-translation-page .asset-preview img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 4px;
+}
+
+.frappe-translation-page .status-badge {
+	display: inline-block;
+	padding: 2px 8px;
+	font-size: 11px;
+	font-weight: 600;
+	border-radius: 12px;
+	background: #dcfce7;
+	color: #166534;
+}
+
+.frappe-translation-page .status-badge.error {
+	background: #fee2e2;
+	color: #991b1b;
+}

@@ -34,7 +34,22 @@ sites/assets/frappe_translation
 ```
 
 This directory is linked to, or copied from, the app's `public` folder during install,
-migrate, and build hooks. Static files can be referenced from Frappe as:
+migrate, and build hooks. Following the same bundle pattern used by Frappe apps such
+as HRMS, the Desk and website frontends load these hook entries:
+
+```text
+frappe_translation.bundle.css
+frappe_translation.bundle.js
+```
+
+The source files live at:
+
+```text
+frappe_translation/public/scss/frappe_translation.bundle.scss
+frappe_translation/public/js/frappe_translation.bundle.js
+```
+
+Images and other raw public files can still be referenced from Frappe as:
 
 ```text
 /assets/frappe_translation/images/logo.png
@@ -66,6 +81,13 @@ You can install this app using the [bench](https://github.com/frappe/bench) CLI:
 cd $PATH_TO_YOUR_BENCH
 bench get-app $URL_OF_THIS_REPO --branch main
 bench install-app frappe_translation
+```
+
+After installing or changing static assets, rebuild the app assets:
+
+```bash
+bench build --app frappe_translation
+bench --site $SITE_NAME clear-cache
 ```
 
 To recompile the bundled translations after editing the source files:

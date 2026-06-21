@@ -29,12 +29,12 @@ add_to_apps_screen = [
 # ------------------
 
 # include js, css files in header of desk.html
-app_include_css = "/assets/frappe_translation/css/frappe_translation.css"
-app_include_js = "/assets/frappe_translation/js/frappe_translation.bundle.js"
+app_include_css = "frappe_translation.bundle.css"
+app_include_js = "frappe_translation.bundle.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/frappe_translation/css/frappe_translation.css"
-# web_include_js = "/assets/frappe_translation/js/frappe_translation.js"
+web_include_css = "frappe_translation.bundle.css"
+web_include_js = "frappe_translation.bundle.js"
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "frappe_translation/public/scss/website"
