@@ -71,7 +71,7 @@ bench install-app frappe_translation
 To recompile the bundled translations after editing the source files:
 
 ```bash
-bench --site $SITE_NAME execute frappe_translation.translation_pack.install_translation_pack
+bench --site $SITE_NAME execute frappe_translation.install.sync_translation_app
 bench --site $SITE_NAME clear-cache
 ```
 
