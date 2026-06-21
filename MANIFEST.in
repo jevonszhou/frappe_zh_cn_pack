@@ -1,3 +1,4 @@
 recursive-include frappe_translation/locale *.po *.pot *.csv
 recursive-include frappe_translation/public *.*
 recursive-include frappe_translation/scripts *.py
+recursive-include frappe_translation/www *.*

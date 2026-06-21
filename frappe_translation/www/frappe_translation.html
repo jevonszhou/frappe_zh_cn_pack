@@ -1,0 +1,44 @@
+{% extends "templates/web.html" %}
+
+{% block content %}
+<div class="frappe-translation-page">
+	<div class="app-header">
+		<img src="{{ logo_url }}" alt="Frappe Translation Logo" />
+		<div>
+			<h1>{{ app_title }}</h1>
+			<p>{{ app_description }}</p>
+		</div>
+	</div>
+
+	<div data-asset-status style="margin-bottom: 24px;"></div>
+
+	<h2>Static Assets</h2>
+	<p>The following static resources are served from <code>{{ assets_base }}</code> and are accessible from the frontend after install.</p>
+
+	<div class="assets-grid">
+		<div class="asset-card">
+			<h3>CSS</h3>
+			<code>{{ css_url }}</code>
+			<div class="asset-preview" style="font-family: 'Inter', sans-serif; color: #5b8def;">
+				Preview styled by frappe_translation.css
+			</div>
+		</div>
+
+		<div class="asset-card">
+			<h3>JavaScript</h3>
+			<code>{{ js_url }}</code>
+			<div class="asset-preview">
+				<span class="status-badge">bundle loaded</span>
+			</div>
+		</div>
+
+		<div class="asset-card">
+			<h3>Image (PNG)</h3>
+			<code>{{ logo_url }}</code>
+			<div class="asset-preview">
+				<img src="{{ logo_url }}" alt="logo" style="max-height: 80px;" />
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}
