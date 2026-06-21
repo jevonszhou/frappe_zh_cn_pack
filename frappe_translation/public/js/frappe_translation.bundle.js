@@ -2,7 +2,7 @@
 // Verifies that static JS assets are loaded and accessible from the frontend.
 
 window.frappe_translation = {
-	version: "0.0.12",
+	version: "0.0.13",
 
 	assets: {
 		css: "frappe_translation.bundle.css",

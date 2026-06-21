@@ -52,7 +52,7 @@ frappe_translation/public/js/frappe_translation.bundle.js
 Images and other raw public files can still be referenced from Frappe as:
 
 ```text
-/assets/frappe_translation/images/logo.png
+/assets/frappe_translation/images/logo.svg
 /assets/frappe_translation/css/frappe_translation.css
 /assets/frappe_translation/js/frappe_translation.bundle.js
 ```

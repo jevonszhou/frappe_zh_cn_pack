@@ -8,7 +8,7 @@ def get_context(context):
 	context.app_description = (
 		"A custom app to integrate optimized language translations for Frappe apps."
 	)
-	context.logo_url = "/assets/frappe_translation/images/logo.png"
+	context.logo_url = "/assets/frappe_translation/images/logo.svg"
 	context.css_url = "/assets/frappe_translation/css/frappe_translation.css"
 	context.js_url = "/assets/frappe_translation/js/frappe_translation.bundle.js"
 	context.assets_base = "/assets/frappe_translation"

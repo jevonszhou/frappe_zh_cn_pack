@@ -5,6 +5,7 @@ app_description = "A custom app to integrate optimized language translations for
 app_email = "jevons.zh@gmail.com"
 app_license = "gpl-3.0"
 app_logo_url = "/assets/frappe_translation/images/logo.png"
+app_home = "/desk"
 
 after_install = "frappe_translation.install.after_install"
 after_migrate = "frappe_translation.install.after_migrate"
@@ -21,7 +22,7 @@ add_to_apps_screen = [
 		"name": "frappe_translation",
 		"logo": "/assets/frappe_translation/images/logo.png",
 		"title": "Frappe Translation",
-		"route": "/frappe_translation",
+		"route": "/desk",
 	}
 ]
 
