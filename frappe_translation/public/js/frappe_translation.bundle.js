@@ -7,7 +7,7 @@ window.frappe_translation = {
 	assets: {
 		css: "frappe_translation.bundle.css",
 		js: "frappe_translation.bundle.js",
-		logo: "/assets/frappe_translation/images/logo.png",
+		logo: "/assets/frappe_translation/logo.png",
 	},
 
 	checkAssets() {
